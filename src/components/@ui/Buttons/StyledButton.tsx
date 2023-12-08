@@ -36,7 +36,7 @@ export default function StyledButton({
           zIndex: 1,
           transform: 'translateX(-2px) translateY(-2px)',
           transition: '0.3s',
-          '&:focus, &:active': {
+          '&:hover': {
             transform: 'translateX(0) translateY(0)',
           },
           ...(buttonSx || {}),

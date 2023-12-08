@@ -29,10 +29,9 @@ export default function Navbar() {
         zIndex: zIndex.navBar,
         overflow: 'hidden',
         transition: '0.3s',
-        bg: 'white',
-        borderBottom: '1px solid',
+        bg: show ? 'white' : 'transparent',
+        borderBottom: show ? '1px solid' : 'none',
         borderColor: 'neutral7',
-        opacity: show ? 1 : 0,
       }}
       height={72}
     >
